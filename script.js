@@ -4,7 +4,7 @@ function decimalToBinary(num) {
   if(num === 0 || num === 1){
 	  return num;
   } else{
-	decimalToBinary(Math.floor(num/2)) + (num%2);
+	decimalToBinary(Math.floor(num/2)) * 10 + (num%2);
 	}
 }
 
