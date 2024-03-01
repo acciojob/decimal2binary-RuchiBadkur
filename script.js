@@ -6,6 +6,7 @@ function decimalToBinary(num) {
 		res = num%2 + res;
 		num = Math.floor(num/2);
 	}
+	return res;
 }
 
 window.decimalToBinary = decimalToBinary;
